@@ -1,0 +1,26 @@
+{                
+  "name": "Simple-EvalBot",
+  "description": "The best EvalBot made by Tilak Sharma",  
+  "logo": "",
+    "keywords": [
+    "telegram",
+    "userbot",
+    "plugin",
+    "modular",
+    "productivity"
+  ],
+  "repository": "https://github.com/perry-xd/python-telegram-evalute/",
+  "website": "https://github.com/perry-xd/python-telegram-evalute/",
+  "success_url": "#TODO",
+  "env": {
+    "BOT_TOKEN": {
+      "description": "Get this value from @botfather! Putting Others Value may result In Account Ban.",
+      "value": ""
+    }
+  },
+  "buildpacks": [
+      {
+          "url": "heroku/python"
+      }
+  ]
+}
